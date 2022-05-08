@@ -1,0 +1,72 @@
+html {
+    
+    font-family: 'Roboto', 'Lato', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.blog-post-header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header {
+    font-size: 15.96px;
+}
+
+.header.categories {
+    text-transform: capitalize;
+    cursor: pointer
+}
+
+.header.status {
+    width: 300px;
+    display: inline-block;
+    text-align: left
+}
+
+.header .profile-picture {
+    height: 39.99px;
+    width: 39.99px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.article-info .header {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.article-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.33rem;
+}
+.content-main{padding: 0 200px 0 300px;}
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.content.a {
+    color: #3642e5
+}
+
+p {
+    font-size: 1.5rem;
+    
+}
+
+.social-share {
+    text-align: center;
+    font-size: 1.667rem;
+    font-weight: 600;
+    margin: 2.667rem 0 1rem 0;
+}
